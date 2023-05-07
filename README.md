@@ -24,12 +24,11 @@ Make sure following software is installed on your PC
 ```shell
 $ ./mvnw clean package
 $ java -jar ./bridge-pattern/target/bridge-pattern-0.0.1-SNAPSHOT.jar
-```
-
-```shell
-Compare str1==str2: true
-Compare str3==str4: false
-Compare value str1.equals(str3): true
+06:30:38.684 [main] INFO io.github.huypva.bridgepattern.Main -- Abtraction
+06:30:38.686 [main] INFO io.github.huypva.bridgepattern.Concrete1Implementation -- Concrete1 implementation 1
+06:30:38.686 [main] INFO io.github.huypva.bridgepattern.Concrete1Implementation -- Concrete1 implementation 2
+06:30:38.686 [main] INFO io.github.huypva.bridgepattern.Main -- RefinedAbtraction
+06:30:38.686 [main] INFO io.github.huypva.bridgepattern.Concrete1Implementation -- Concrete1 implementation 1
 ```
 
 ## Contribute
